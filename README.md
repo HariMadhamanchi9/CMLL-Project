@@ -8,6 +8,7 @@ Teaches Greek, ASL, Japanees, Kerean , Latin, Mandarin Chinese, Russain, spanish
 
  so, to keep track of all these necessary information related to students,Professors the management created the Manual Sheet. where studnet need to write down there R-numebr, first name, lastname, and purpose of there visit and the check-in and check out time . 
  
+![Image](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/a3184dbe-31a5-4653-9e6b-14d0ccc13562)
 
 THis web App is mailny focusing on the removign the manual student traking system used by the lab to track of students vistinig the Dpt lab. 
 
