@@ -96,6 +96,16 @@ Normal flow of checkin and check out if for the professor
 ![Screenshot (19)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/f798c62e-2303-410a-bd06-49ee2cb2e48c)
 ![Screenshot (20)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/fc16f9f3-e956-4eb0-a3c2-f84b5d0ce060)
 
+flow of update user details 
+![image](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/2769c56e-0ef9-4196-aac6-e3700c186c20)
+![image](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/0ed33f46-ded1-4a2f-89b3-ed1329c023a9)
+![image](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/bf4c54e2-0f3e-46a5-9e2b-a81f1f12bcc9)
+
+flow of changing background image
+![Screenshot (22)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/c0251964-2814-46dc-beb6-9f135caf122a)
+
+Active users 
+![image](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/0ea27480-577e-45e4-8dfe-37cb912e5307)
 
 
 
