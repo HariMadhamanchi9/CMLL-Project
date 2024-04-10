@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            flex-direction: column;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px; /* Increased font size */
+        }
+
+        .content-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        
+        .professor-login-button {
+            display: block;
+            text-align: center;
+            background-color: #fff;
+            color: #007bff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px; /* Adjust top margin for spacing */
+        }
+
+        /* Style for the container */
+        #name {
+            width: 60%;
+            height: 25px;
+            font-size: 16px;
+            border: 5px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Style for the submit button */
+        input[type="submit"].professor-login-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 60px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            position: absolute;
+            top: 648px; /* Adjust top position */
+            left: 880px; /* Adjust right position */
+        }
+
+        input[type="submit"].professor-login-button:hover {
+            background-color: #0056b3;
+        }
+
+        .label {
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Style for professor suggestions */
+        #professor-suggestions {
+            position: absolute;
+            top: 619px;
+            left: 62%;
+            transform: translateX(-50%);
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 0-px;
+            max-height: 150px;
+            overflow-y: auto;
+            z-index: 1;
+        }
+        
+        #professor-suggestions p {
+            margin: 5px 0;
+            cursor: pointer;
+        }
+
+        #professor-suggestions p:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="professor-login-button" style="position: absolute; top: 10px; left: 10px;">
+        <a href="log.html" style="text-decoration: none; color: black; font-size: 30px; font-weight: bold; padding: 15px 30px">Student Login</a>
+    </div>
+    <div class="content-box">
+        <h1>CMLL</h1>
+        <h1>Welcome, Please Check-in/Check-out</h1>
+        <h2>Professor Login</h2>
+        <form action="professorlogin.php" method="post">
+            <div class="container">
+                <label class="label" for="name">Enter your name: </label><br>
+                <input type="text" id="name" name="name" autocomplete="off" required oninput="searchProfessors(this.value)">
+                <div id="professor-suggestions"></div>
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="professor-login-button">
+            </div>
+        </form>
+        <div id="selected-user"></div>
+    </div>
+
+    <script>
+
+var backgroundImage = localStorage.getItem("professorlogin_background");
+        if (backgroundImage) {
+            document.body.style.backgroundImage = backgroundImage;
+        }
+        // JavaScript function to send an asynchronous request to professorsearch.php
+        function searchProfessors(query) {
+            if (query.trim() === '') {
+                document.getElementById('professor-suggestions').innerHTML = '';
+                return;
+            }
+    
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('professor-suggestions').innerHTML = this.responseText;
+    
+                    // Add click event listeners to suggested professor names
+                    var professorSuggestions = document.querySelectorAll('#professor-suggestions p');
+                    professorSuggestions.forEach(function(suggestion) {
+                        suggestion.addEventListener('click', function() {
+                            document.getElementById('name').value = suggestion.textContent;
+                            document.getElementById('professor-suggestions').innerHTML = ''; // Clear suggestions
+                        });
+                    });
+                }
+            };
+            xhttp.open("GET", "professorsearch.php?query=" + query, true);
+            xhttp.send();
+        }
+    </script>
+    
+</body>
+</html>
