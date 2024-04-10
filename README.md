@@ -89,6 +89,12 @@ details capture in database checkins table are : R-number, first name, last name
 ![Screenshot (15)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/0308ffee-0eb0-4712-a782-b392a8e3d2e7)
 ![Screenshot 2024-04-10 125030](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/98c40bf6-fe40-4222-9fad-9b4d065ed3ef)
 
+Normal flow of checkin and check out if for the professor 
+![Screenshot (16)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/2880a6e8-1628-4f90-9752-3186e6931661)
+![Screenshot (17)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/dd63a9e6-9e63-4f44-ae72-56d7a8f98da5)
+![Screenshot (18)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/1dd745be-8225-4d6f-94a8-cbacf3d26593)
+![Screenshot (19)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/f798c62e-2303-410a-bd06-49ee2cb2e48c)
+![Screenshot (20)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/fc16f9f3-e956-4eb0-a3c2-f84b5d0ce060)
 
 
 
