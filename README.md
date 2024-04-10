@@ -15,15 +15,16 @@ SO, web App is mailny focusing on the removign the manual student traking system
 
 The Web Application Keep track of students detials, there purpose of visit and tracks the no.of hours that studnets spends in the lab. Also track the Professor Class Detials. 
 On the other Hand I have created other Web App to moniter the Daily Activce users where we can track the no.of students visiting the lab daily . 
--------------------------------------------------------------------
+
 CMLL-Project is the main folder 
 sub folders 
 1.Active users  Folder - Displays the No.of students visited the Lab daly. Refreshes every 5 min to keep trak of new students visiting the Lab 
 2. CMLL PROHECT PROD  - Has the Actual code to keep track of students, Professors, feed back of the students and professors. 
 3. Visual Studio   - has the backgrounbd images for the web app
 4. Update users details - seperate Web App to update the users dertails rather than updating in Sql 
------------------------------------------------------------------------------------------------------
-Work-Flow
+
+Work-Flow:
+
 1. Displays  Log.html page to studnents
 2. User enters Rnumber
 3. If Rnumber is in the "users" table:
