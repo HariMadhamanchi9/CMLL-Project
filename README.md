@@ -71,7 +71,7 @@ Work-Flow:
    - Their feedback is automatically submitted
    - The relevant pages for check-in are shown.
 
-Normal flow of checkin and check out if studnet is been in the database 
+Normal flow of checkin and check out if student is been in the database 
 details capture in database checkins table are : R-number, first name, last name, purpose of visit, chekcin image URL, checkout image URL  
 
 ![1](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/babbdfa9-eadb-4f69-b565-1b9e4eecdf0a)
@@ -80,6 +80,15 @@ details capture in database checkins table are : R-number, first name, last name
 ![5](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/3690fe1a-5c34-447f-b50d-a99da139fbdb)
 ![6](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/057906ed-e363-4efd-a139-0fac026b71a1)
 ![Screenshot 2024-04-10 124457](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/354a2b03-db10-4929-a04f-9acf6555e456)
+
+Normal flow of checkin and check out if student is notbeen in the database 
+details capture in database checkins table are : R-number, first name, last name, purpose of visit, chekcin image URL, checkout image URL  
+![Screenshot (12)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/6aa74e6f-35f8-4291-96e6-7f3dfd803efc)
+![Screenshot (13)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/45f69ca4-fcca-4c9e-9c45-5f96a97c0f5a)
+![Screenshot (14)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/738efefa-38c8-44f5-8d56-25acd4b3f6d6)
+![Screenshot (15)](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/0308ffee-0eb0-4712-a782-b392a8e3d2e7)
+![Screenshot 2024-04-10 125030](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/98c40bf6-fe40-4222-9fad-9b4d065ed3ef)
+
 
 
 
