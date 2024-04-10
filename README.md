@@ -71,5 +71,14 @@ Work-Flow:
    - Their feedback is automatically submitted
    - The relevant pages for check-in are shown.
 
+Normal flow of checkin and check out if studnet is been in the database 
+details capture in database checkins table are : R-number, first name, last name, purpose of visit, chekcin image URL, checkout image URL  
+
+![1](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/babbdfa9-eadb-4f69-b565-1b9e4eecdf0a)
+![2](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/5df69b28-b3bf-479c-87b3-36e1b86cd779)
+![3](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/eb328950-3edf-4975-b5b2-60ab45637893)
+![5](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/3690fe1a-5c34-447f-b50d-a99da139fbdb)
+![6](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/057906ed-e363-4efd-a139-0fac026b71a1)
+
 
 
