@@ -79,6 +79,8 @@ details capture in database checkins table are : R-number, first name, last name
 ![3](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/eb328950-3edf-4975-b5b2-60ab45637893)
 ![5](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/3690fe1a-5c34-447f-b50d-a99da139fbdb)
 ![6](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/057906ed-e363-4efd-a139-0fac026b71a1)
+![Screenshot 2024-04-10 124457](https://github.com/HariMadhamanchi9/CMLL-Project/assets/82075476/354a2b03-db10-4929-a04f-9acf6555e456)
+
 
 
 
