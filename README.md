@@ -23,6 +23,9 @@ sub folders
 3. Visual Studio   - has the backgrounbd images for the web app
 4. Update users details - seperate Web App to update the users dertails rather than updating in Sql 
 
+Used :PHP HTML CSS JAVA Script Ajax SQL XAAMP Server
+
+
 Work-Flow:
 
 1. Displays  Log.html page to studnents
